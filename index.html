@@ -7,41 +7,44 @@
     <title>AI Italian Poem Generator</title>
   </head>
   <body>
-    <header>AI Italian poem generator</header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the Italian poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Sempre caro mi fu quest'ermo colle, <br />
-        E questa siepe, che da tanta parte <br />
-        Dell'ultimo orizzonte il guardo esclude.
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/natsime" target="_blank">Nat Simeone</a> and
-      is
-      <a
-        href="https://github.com/natsime/italian-poem-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and hosted
-      <a
-        href="https://ai-italian-poem-generator-bynat.netlify.app/"
-        target="_blank"
-      >
-        on Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>AI Italian poem generator</header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the Italian poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Sempre caro mi fu quest'ermo colle, <br />
+          E questa siepe, che da tanta parte <br />
+          Dell'ultimo orizzonte il guardo esclude.
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/natsime" target="_blank">Nat Simeone</a> and
+        is
+        <a
+          href="https://github.com/natsime/italian-poem-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and hosted
+        <a
+          href="https://ai-italian-poem-generator-bynat.netlify.app/"
+          target="_blank"
+        >
+          on Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
